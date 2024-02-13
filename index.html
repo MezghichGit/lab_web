@@ -4,25 +4,20 @@
 <head>
     <meta charset="UTF-8" />
     <title>GK 2024</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <style>
-        h1 {
-            color: red
-        }
-
-        li {
-            color: blue
-        }
-
-        .cadre{
-            border: 2px red solid;
-        }
-        #title{
-        border:4px green dotted
-        }
+        a:link { color: green;}		 /* liens non visités */
+        a:visited { background-color: blue ;}	 /* liens visités */
+        a:active { background-color: red ;}	 /* liens actifs */
+        /*a:hover {
+            background-color: gold;
+          }*/
+        
     </style>
 </head>
 
 <body>
+    <p> <a href="https://www.w3schools.com/html/">Web</a> </p>
     <h1 align="center" id="title"><i><u>Cours Développement web</u></i></h1>
     <ul type="circle">
         <li>HTML</li>
@@ -35,7 +30,7 @@
     <h3 class="cadre">1) Les sections de la formation</h3>
     <table border="1" align="center">
         <tr>
-            <th>Langage</th>
+            <th style="color:red; margin:20px">Langage</th>
             <th>Description</th>
             <th>Lien utile</th>
         </tr>
