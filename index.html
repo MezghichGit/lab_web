@@ -4,10 +4,26 @@
 <head>
     <meta charset="UTF-8" />
     <title>GK 2024</title>
+    <style>
+        h1 {
+            color: red
+        }
+
+        li {
+            color: blue
+        }
+
+        .cadre{
+            border: 2px red solid;
+        }
+        #title{
+        border:4px green dotted
+        }
+    </style>
 </head>
 
 <body>
-    <h1 align="center"><i><u>Cours Développement web</u></i></h1>
+    <h1 align="center" id="title"><i><u>Cours Développement web</u></i></h1>
     <ul type="circle">
         <li>HTML</li>
         <li>CSS</li>
@@ -16,7 +32,7 @@
         <li>jQuery</li>
     </ul>
 
-    <h3>1) Les sections de la formation</h3>
+    <h3 class="cadre">1) Les sections de la formation</h3>
     <table border="1" align="center">
         <tr>
             <th>Langage</th>
@@ -41,7 +57,7 @@
         <caption align="bottom">Fig.1 : Sections du cours</caption>
     </table>
 
-    <h3>2) Les formulaires</h3>
+    <h3 class="cadre">2) Les formulaires</h3>
     <table align="center">
         <form method="POST" action="#">
             <tr>
@@ -70,17 +86,17 @@
             <tr>
                 <td><label for="psj"><b>Pièce jointe</b></label></td>
                 <td>
-                    <input id="psj" type="file" name="file" size="60px" value="Choisir un document"/>
+                    <input id="psj" type="file" name="file" size="60px" value="Choisir un document" />
                 </td>
             </tr>
 
             <tr>
                 <td>
-                    
+
                 </td>
                 <td>
-                    <input type="reset" size="20px" value="Annuler"/>
-                    <input type="submit" size="20px" value="Envoyer"/>
+                    <input type="reset" size="20px" value="Annuler" />
+                    <input type="submit" size="20px" value="Envoyer" />
                 </td>
             </tr>
 
